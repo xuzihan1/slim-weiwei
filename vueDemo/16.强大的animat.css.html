@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>强大的animate.css</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        #root{
+            margin: 80px auto;
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            font-weight: bold;
+            text-align: center;
+        }
+        h1{
+            margin: 20px;
+        }
+        .dragon-enter,.dragon-leave-to{
+            opacity: 0;
+        }
+        .dragon-enter-active,.dragon-leave-active{
+            transition: opacity 3s;
+        }
+    </style>
+</head>
+<body>
+<div id="root">
+    <transition appear
+                :duration="{enter:5000,leave:10000}"
+                enter-active-class="animated rollIn dragon-enter-active"
+                leave-active-class="animated rollOut dragon-leave-active"
+                appear-active-class="animated rollIn"
+                name="dragon">
+        <!--                type="transition"-->
+        <h1 v-if="change">{{content}}</h1>
+    </transition>
+    <button class="btn btn-info" @click="toggle" style="">{{btn}}</button>
+</div>
+<script>
+    const vm=new Vue({
+        el:"#root",
+        data:{
+            content:"神龙在此，谁敢造作",
+            btn:"神龙退散",
+            change:true
+        },
+        methods:{
+            toggle() {
+                this.change=!this.change;
+                this.btn=this.btn==="神龙退散"?"神龙召唤":"神龙退散";
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test7</title>
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        /*.btn{*/
+        /*    height: 20px;*/
+        /*    width: 200px;*/
+        /*    background-color: blue;*/
+        /*    line-height: 20px;*/
+        /*    font-size: 14px;*/
+        /*    color: white;*/
+        /*    border-radius: 10px;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div id="btn" class="btn btn-info" onmouseover="mouseoverFn(this)" onmouseout="mouseoutFn(this)">这是什么狗屁爱情</div>
+<script>
+    function mouseoutFn(btn) {
+        btn.style.backgroundColor="#5bc0de";
+        btn.style.borf ="#5bc0de";
+    }
+    function mouseoverFn(btn) {
+        btn.style.backgroundColor="#f00";
+    }
+</script>
+
+<p>17 软件 王豪 2019/4/15 16:51:00</p>
+<div id="element"> 1 2 3
+    <div>234</div>
+    123
+</div>
+<script>
+    console.log(document.getElementById('element').childNodes[0].nodeValue);
+    // console.log(document.getElementById('element').innerHTML);
+</script>
+</body>
+</html>

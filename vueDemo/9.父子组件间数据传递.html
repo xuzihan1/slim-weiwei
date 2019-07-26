@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父子组件间数据传递</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <counter :balaba="1" @change="yep"></counter>
+    <counter :balaba="2" @change="yep"></counter>
+    <div>{{total}}</div>
+</div>
+<script>
+    const counter = {
+        props:['balaba'],
+        data(){
+            return {
+              aha:this.balaba
+            }
+        },
+        template: '<div @click="jiajia">{{aha}}</div>',
+        methods:{
+            jiajia(){
+                this.aha+=2;
+                this.$emit('change',2)
+            },
+            // chuandi(){
+            //
+            // }
+        }
+    };
+    const vm = new Vue({
+        el: "#app",
+        data:{
+            total:3
+        },
+        components:{
+            counter:counter
+        },
+        methods: {
+            yep(a){
+                this.total+=a;
+            }
+        }
+    })
+</script>
+</body>
+</html>

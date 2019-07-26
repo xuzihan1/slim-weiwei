@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3动画</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <style>
+        html,body{
+            padding: 0;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .fade-enter ,.fade-leave-to{
+            opacity: 0;
+        }
+
+        .fade-enter-active,.fade-leave-active {
+            transition: opacity 1s;
+        }
+    </style>
+</head>
+<body>
+<div id="root">
+    <transition name="fade">
+        <h1 style="text-align: center" v-if="type">神龙在此，谁敢撒野</h1>
+    </transition>
+    <button @click="change" style="margin: 8px auto;display: block;height: 100px;width: 200px">{{dragon}}</button>
+</div>
+<script>
+
+    const vm = new Vue({
+        el: "#root",
+        data: {
+            type: true,
+            dragon: "神龙退散"
+        },
+        methods: {
+            change() {
+                this.type = !this.type;
+                this.dragon = this.dragon === "神龙退散" ? "神龙召唤" : "神龙退散";
+            }
+        }
+    })
+</script>
+</body>
+</html>

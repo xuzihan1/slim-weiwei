@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js动画和velocity.js的使用</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="velocity.min.js"></script>
+</head>
+<body>
+<div id="root">
+    <transition name="clamp"
+                @before-enter="handleBeforeEnter"
+                @enter="handleEnter"
+                @after-enter="handleAfterEnter">
+        <div v-if="type">{{content}}</div>
+    </transition>
+    <button @click="change">{{btn}}</button>
+</div>
+<script>
+    const vm=new Vue({
+        el:"#root",
+        data:{
+            content:"小小少年，心儿很大",
+            btn:"放弃吧",
+            type:true
+        },
+        methods:{
+            change(){
+                this.type=!this.type;
+                this.btn=this.btn==="放弃吧"?"站起来，支楞点":"放弃吧"
+            },
+            handleBeforeEnter(el){
+                el.style.opacity= 0;
+            },
+            handleEnter(el,done){
+                Velocity(el,{opacity:1},{duration:1000,complete:done})
+            },
+            handleAfterEnter(el){
+            }
+        }
+    })
+</script>
+</body>
+</html>

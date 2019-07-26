@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index2</title>
+    <style>
+        h1 {
+            font-size: 8rem;
+            margin: 2rem;
+        }
+
+        h2 {
+            font-size: 6rem;
+            margin: 2rem;
+        }
+
+        #content {
+            width: 24rem;
+            margin: 0 auto;
+            position: relative;
+            line-height: 4rem;
+            top: 80px;
+        }
+
+        #one, #two, #three {
+            margin: 0 auto;
+            border-left: 2px solid red;
+            border-left: 2px solid red;
+            text-align: right;
+        }
+
+        #one {
+            width: 24rem;
+            height: 8rem;
+            position: absolute;
+            right: 0;
+        }
+
+        #two {
+            width: 12rem;
+            height: 8rem;
+            position: absolute;
+            right: 0;
+            top: 8rem;
+        }
+
+        #three {
+            width: 6rem;
+            height: 8rem;
+            position: absolute;
+            right: 0;
+            top: 16rem;
+        }
+
+        #four {
+            position: absolute;
+            left: 8rem;
+            top: 60px;
+        }
+
+        #five {
+            position: absolute;
+            left: 20rem;
+            top: 190px;
+        }
+
+        #six {
+            position: absolute;
+            left: 660px;
+            top: 190px;
+        }
+
+        #seven {
+            position: absolute;
+            left: 660px;
+            top: 320px;
+        }
+        #name{
+            position: absolute;
+            top:1000px;
+            left: 250px;
+            font-size: 6rem;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <div id="one" onclick="move()"><h1>522</h1></div>
+    <div id="two"><h2>32</h2></div>
+    <div id="three"><h2>1</h2></div>
+</div>
+<div id="four"><h2>16</h2></div>
+<div id="five"><h2>16</h2></div>
+<div id="six"><h2>14</h2></div>
+<div id="seven"><h2>13</h2></div>
+<div id="name">维维节日快乐</div>
+</body>
+<script>
+    const seven=document.getElementById("seven");
+    const six=document.getElementById("six");
+    let timer=null;
+    const end=730;
+
+    function moveSix() {
+        timer=setInterval(function (){
+            if (six.offsetTop>end){
+                clearInterval(timer);
+            }
+            six.style.left=six.offsetLeft+(-10)+'px';
+            six.style.top=six.offsetTop+23.5+'px';
+        },30);
+    }
+
+    function move() {
+        timer=setInterval(function (){
+            if (seven.offsetTop>end){
+                clearInterval(timer);
+                moveSix();
+            }
+            seven.style.left=seven.offsetLeft+(-10)+'px';
+            seven.style.top=seven.offsetTop+10+'px';
+        },30);
+
+    }
+    function handleEnd() {
+        clearInterval(timer);
+    }
+</script>
+</html>

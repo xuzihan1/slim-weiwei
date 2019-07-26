@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue中的v-if和v-show</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <button @click="turn">召唤神龙</button>
+    <div v-if="what" >
+        邮箱：<input type="email" key="email">
+    </div>
+    <div v-else>
+        用户名：<input type="text" key="username">
+    </div>
+    <div></div>
+    <div v-show="what" >神龙出现</div>
+</div>
+<script>
+    const vm=new Vue({
+        el:"#app",
+        data:{
+            content:"笑一笑十年少",
+            what:false,
+        },
+        methods:{
+            turn(){
+                this.what=!this.what;
+            }
+        }
+    })
+</script>
+</body>
+</html>

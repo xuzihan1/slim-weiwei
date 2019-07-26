@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f1377f4-648e-43d0-8374-3eaac5eca3b8" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../NewExamples/.idea/NewExamples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/.idea/dictionaries/lenovo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5350.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5360.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5369.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5371.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5381.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5427.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5442.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/image/IMG_5447.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/js/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewExamples/test9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/TsDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/dictionaries/lenovo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/newDemo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/newDemo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/newDemo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/text1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TsDemo/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootstrapDemo/Demo1/left.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootstrapDemo/Demo1/navBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootstrapDemo/Demo1/right-navBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootstrapDemo/js/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/.idea/calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/calculate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/calculator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/.idea/canvas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/canvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../canvas/jianbian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/.idea/vueDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/1.todolist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/2.newVue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/3.vue实例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/4.j计算属性，方法和监听器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vueDemo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrapDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrapDemo/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <marker date="1557283389776" expanded="true" signature="227:376" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="学习_slices" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vueDemo/node_modules/vue.js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\程序\js\study" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f1377f4-648e-43d0-8374-3eaac5eca3b8" name="默认更改列表" comment="" />
+      <created>1557222877386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557222877386</updated>
+      <workItem from="1557222884817" duration="5301000" />
+      <workItem from="1557282066074" duration="1920000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7221000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="11" weight="0.3288889" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/学习_slices/路径 19@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <marker date="1557283389776" expanded="true" signature="227:376" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

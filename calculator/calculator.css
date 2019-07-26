@@ -1,0 +1,41 @@
+#main,body,html{
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#main{
+    width: 416px;
+    height: 600px;
+    /*background-color: aqua;*/
+    position: relative;
+}
+
+#result{
+    width: 396px;
+    margin: 2px;
+    /*padding: 8px;*/
+    background: #eeeeee;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px ;
+    padding: 8px;
+}
+#cancel{
+    background-color: #d7d7d7;
+    width: 412px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: 2px;
+}
+.btn{
+    background-color: #d7d7d7;
+    height: 80px;
+    width: 100px;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    /*border: 2px solid #f8f8f8;*/
+    margin: 2px;
+    font-size: 40px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue中样式绑定</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+<!--    <style>-->
+<!--        .color{-->
+<!--            color:red;-->
+<!--        }-->
+<!--    </style>-->
+</head>
+<body>
+<div id="app"
+     @click="gaibianyanse"
+     :style="style"
+>
+<!--    :class="{color:abc}"-->
+    我不是黄蓉
+</div>
+<script>
+    //关联对象的方法
+    // const vm=new Vue({
+    //     el:"#app",
+    //     data:{
+    //         abc:false
+    //     },
+    //     methods:{
+    //         gaibianyanse(){
+    //             this.abc=!this.abc;
+    //         }
+    //     }
+    // })
+
+
+    //关联数组的方法
+    // const vm=new Vue({
+    //     el:"#app",
+    //     data:{
+    //       color:"",
+    //         hiahia:"hiahia"
+    //     },
+    //     methods:{
+    //         gaibianyanse(){
+    //             this.color=this.color===""?"color":""
+    //         }
+    //     }
+    // })
+
+
+    //关联style对象
+    const vm=new Vue({
+        el:"#app",
+        data:{
+            style:{
+                color:"RED"
+            }
+        },
+        methods:{
+            gaibianyanse(){
+                this.style.color=this.style.color==="RED"?"BLACk":"RED"
+            }
+        }
+    })
+</script>
+</body>
+</html>

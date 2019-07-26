@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态组件和v-once</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="root">
+    <component :is="type"></component>
+
+    <button @click="change">child变变变</button>
+</div>
+<script>
+    Vue.component('child-one',{
+        template:'<div v-once>Child-one</div>'
+    });
+    Vue.component('child-two',{
+        template:'<div v-once>Child-two</div>'
+    });
+    const vm=new Vue({
+        el:"#root",
+        data:{
+            type:"child-one"
+        },
+        methods:{
+            change(){
+                this.type=(this.type==="child-one"?'child-two':'child-one');
+            }
+        }
+    })
+</script>
+</body>
+</html>

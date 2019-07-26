@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表过度</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .v-enter,.v-leave-to{
+            opacity: 0;
+        }
+        .v-enter-active,.v-leave-active{
+            transition: opacity 2s;
+        }
+    </style>
+</head>
+<body>
+<div id="root">
+    <transition-group>
+        <h1 v-for="item of list" :key="item.id" style="text-align: center">
+            {{item.content}}
+        </h1>
+    </transition-group>
+    <button @click="handleAdd" class="btn btn-info" style="margin: 0 auto;display: block">我们绝不会退缩</button>
+</div>
+<script>
+    let count = 0;
+    const vm = new Vue({
+        el: "#root",
+        data: {
+            list: []
+        },
+        methods: {
+            handleAdd() {
+                this.list.push({
+                    id: count++,
+                    content: "德玛西亚！！！"
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

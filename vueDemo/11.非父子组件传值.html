@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>非父子组件传值（BUS/总线/发布订阅模式/观察者模式）</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="root">
+    <child content="我不是"></child>
+    <child content="黄蓉"></child>
+</div>
+<script>
+    Vue.prototype.bus=new Vue();
+    Vue.component('child',{
+        props:{
+            content:String
+        },
+        data(){
+            return {
+                self:this.content
+            }
+        },
+        template:'<div @click="change">{{self}}</div>',
+        methods:{
+            change(){
+                this.bus.$emit('hahha',this.self)
+            }
+        },
+        mounted(value) {
+            this_=this;
+            this_.bus.$on('hahha',value=>{
+                this.self=value;
+            })
+        }
+    });
+    const vm=new Vue({
+        el:"#root"
+    })
+</script>
+</body>
+</html>

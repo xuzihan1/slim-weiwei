@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>切换图片</title>
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="container">
+<h1 class="h1">这是我今天学到的一个实例</h1>
+<ul class="nav navbar navbar-nav" id="imag">
+    <li class="nav-item"><a href="image/IMG_5350.JPG" title="这是图片1">image1</a></li>
+    <li class="nav-item"><a href="image/IMG_5360.JPG" title="这是图片2">image2</a></li>
+    <li class="nav-item"><a href="image/IMG_5369.JPG" title="这是图片3">image3</a></li>
+</ul>
+<div>
+    <img id="tupian" src="image/IMG_5447.JPG" height="608" width="912"/>
+</div>
+<p id="description">请选择一个图片</p>
+<script>
+    var tuku=function(a) {
+        var source=a.getAttribute("href");
+        var b=document.getElementById("tupian");
+        b.setAttribute("src",source);
+        var c=document.getElementById("description");
+        c.firstChild.nodeValue=a.getAttribute("title");
+        // alert(c.firstChild.nodeValue);
+    };
+    function paperGallery() {
+        if (!document.getElementsByTagName) return false;
+        if (!document.getElementById) return false;
+        if (!document.getElementById("imag")) return false;
+        var gallery=document.getElementById("imag");
+        var link=gallery.getElementsByTagName("a");
+        for (var i = 0; i <link.length ; i++) {
+            link[i].onclick=function () {
+                tuku(this);
+                // var result=confirm("确定选择这个图片么？");
+                // var message=prompt("请输入照片中谁最好看","陈露露");
+                alert("你是最帅的！");
+                var funCall=function () {
+                    alert("果然你真的是帅的无与伦比！！！")
+                };
+                setTimeout(funCall,5000);
+                return false;
+
+            }
+        }
+        // alert(gallery.childNodes[1].nodeType);
+    }
+    window.onload=paperGallery;
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生命周期函数</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">{{content}}</div>
+<script>
+    const vm=new Vue({
+        el:'#app',
+        data:{
+            content:'hello world'
+        },
+        beforeCreate(){
+            console.log("beforeCreate");
+        },
+        created(){
+            console.log("created");
+        },
+        beforeMount(){
+            console.log("beforeMount");
+        } ,
+        mounted(){
+            console.log("mounted");
+        },
+        beforeDestroy(){
+            console.log("beforeDestroy");
+        },
+        destroyed() {
+            console.log("destroyed");
+        },
+        beforeUpdate(){
+            console.log("beforeUpdate");
+        },
+        updated(){
+            console.log("updated");
+        }
+    })
+</script>
+</body>
+</html>

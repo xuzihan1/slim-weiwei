@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绑定原生事件</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="root">
+    <child @click.native="hhh"></child>
+</div>
+<script>
+    Vue.component('child',{
+        template:'<div>Child</div>'
+    })
+    const vm=new Vue({
+        el:"#root",
+        methods:{
+            hhh(){
+                alert("hhaha")
+            }
+        }
+    })
+</script>
+</body>
+</html>

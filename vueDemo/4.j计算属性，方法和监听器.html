@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算属性，方法和监听器</title>
+    <script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    {{fullName}}
+</div>
+<script>
+    const vm=new Vue({
+        el:'#app',
+        data:{
+            firstName:"Dell",
+            lastName:"Lee",
+            fullName:"Dell Lee"
+        },
+        //监听器
+        watch:{
+            firstName: function () {
+                console.log("计算了一次");
+                this.fullName=this
+            }
+        },
+        //计算属性
+        // computed: {
+        //     fullName(){
+        //         return this.firstName+" "+this.lastName;
+        //     }
+        // }
+    })
+</script>
+</body>
+</html>
